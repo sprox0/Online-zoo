@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(/assets/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url(/assets/fonts/Roboto-Bold.ttf);
+}
+
+body {
+    margin: 0 auto;
+}
+    
+body, html, ul, ol, li, p, h1, h2, h3, h4 {
+    margin: 0px;
+    padding: 0px;
+}
+
+div,
+button {
+    box-sizing: border-box;
+}
+
+.warpper {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+/**         Header seaction         **/
+
+.header-wrapper {
+    background-color: #000;
+}
+
+.header-section {
+    align-items: center;
+    display: flex;
+    height: 80px;
+    justify-content: space-between; 
+    width: 1160px; 
+    margin: 0 auto;
+}
+
+.inter-section {
+    background-image: url(/assets/images/Giant-Panda.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+}
+
+.list-link {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto', 'Arial', 'Times New Roman', sans-serif;
+}
+
+.nav-list-link {
+  color: #F9804B ;
+}
+
+.nav-bar {
+    display: flex;
+    width: 472px;
+    justify-content: space-between;
+}
+
+.nav-section {
+    align-items: center;
+    display: flex;
+    width: 620px;
+    justify-content: space-between;
+}
+
+.title-hidden {
+    visibility: hidden;
+    position: absolute !important;
+}
+
+/**         Content Wrapper         **/
+
+.content {
+    justify-content: space-between;
+    height: 590px;
+    width: 575px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-btn {
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    font-family: 'Roboto', 'Times New Roman', sans-serif;
+    width: 298px;
+    height: 54px;
+    z-index: 1;
+}
+
+.content-title {
+    color: #fff;
+    font-family: 'Roboto Bold', 'Times New Roman', sans-serif;
+    font-weight: bold;
+    font-size: 106px;
+    line-height: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    top: 75px;
+    z-index: 1;
+}
+
+.content-pic {
+    position: absolute;
+    top: 92px;
+    left: calc(50% - 465px/2 + 239.5px);
+}
+
+.content-section {
+    display: flex;
+    width: 1160px;
+    height: 780px;
+    justify-content: flex-end;
+    margin: 0 auto;
+}
+
+.title-clr {
+    color: #FFEE2E;
+}
