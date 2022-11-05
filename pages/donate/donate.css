@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(/assets/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url(/assets/fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto Thin';
+    src: url(/assets/fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto Light';
+    src: url(/assets/fonts/Roboto-Light.ttf);
+}
+
+body {
+    margin: 0 auto;
+}
+    
+body, html, ul, ol, li, p, h1, h2, h3, h4 {
+    margin: 0px;
+    padding: 0px;
+}
+
+div,
+button {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+/**                 HEADER SECTION            **/
+
+.header-wrapper {
+    background-color: #000;
+}
+
+.header-section {
+    align-items: center;
+    display: flex;
+    height: 80px;
+    justify-content: space-between; 
+    width: 1160px; 
+    margin: 0 auto;
+}
+
+.content-wrapper {
+    background-image: url(/assets/images/panda_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    height: 390px;
+    width: 1600px;
+}
+
+.list-link {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto', 'Arial', 'Times New Roman', sans-serif;
+}
+
+.list-link:active {
+    color: #F9804B ;
+}
+
+.list-link:active .nav-list-link{
+    color: #FFFFFF ;
+}
+
+.nav-list-link {
+  color: #F9804B ;
+}
+
+.nav-bar {
+    display: flex;
+    width: 472px;
+    justify-content: space-between;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-section {
+    align-items: center;
+    display: flex;
+    width: 620px;
+    justify-content: space-between;
+}
+
+.title-hidden {
+    visibility: hidden;
+    position: absolute !important;
+}
+
